@@ -1,4 +1,4 @@
-// const _ = require("CMPT315_A2_SS");
+const _ = require("CMPT315_A2_SS");
 
 const matches = [
     { winner: 'Alice', loser: 'Bob',   loser_points: 3 },
@@ -26,3 +26,4 @@ function participants(obj){
     return Names;
 };
 
+const results1 = _.participants(matches); // => ['Alice', 'Bob', 'Carol', 'Dean', 'Elise']

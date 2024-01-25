@@ -1,4 +1,4 @@
-// const _ = require("CMPT315_A2_SS");
+const _ = require("CMPT315_A2_SS");
 
 function isArrayFactorChain(list){
     let len = list.length;
@@ -14,3 +14,6 @@ function isArrayFactorChain(list){
     };
     return bool;
 };
+
+const results1 = _.isArrayFactorChain([2, 4, 8, 16, 32]); // => true
+const results2 = _.isArrayFactorChain([2, 4, 8, 16, 32, 68]); // => false
